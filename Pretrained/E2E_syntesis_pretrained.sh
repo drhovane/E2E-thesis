@@ -7,7 +7,7 @@
 # This script runs the Python script `E2E_syntesis_pretrained.py` within a Singularity container
 
 # define a DATADIR variable: directory where the input files are taken from and where the output will be copied to
-DATADIR=/E2E-thesis/Pretarined/ # substitute later for dataset and scripts location
+DATADIR=/E2E-thesis/Pretrained/ # substitute later for dataset and scripts location
 
 # append a line to a file "jobs_info.txt" containing the ID of the job, the hostname of the node it is run on, and the path to a scratch directory
 # this information helps to find a scratch directory in case the job fails, and you need to remove the scratch directory manually 
